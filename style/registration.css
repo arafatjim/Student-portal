@@ -1,0 +1,25 @@
+.registration-section{
+          background: #F4F6FF;
+          
+}
+.label{
+          font-weight: 500;
+          font-size: larger;
+          color: #ffffff;
+}
+.card-body{
+          background: #a4b0be;
+          border-radius: 10px;
+}
+.registration-title{
+          font-size: 5em;
+          color: blue;
+}
+.welcome-bio{
+          font-size: 2em;
+}
+.college-name{
+          color: rgb(43, 74, 201);
+          font-size: 1.5em;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+}
