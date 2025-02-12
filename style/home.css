@@ -14,22 +14,34 @@
           background: #344CB7;
           text-align: center;
 }
-.information{
+/* .information{
           
           height: 3em;
           display: block;
-}
+} */
 
 .information{
           background: #578FCA;
           color: white;
           font-size: larger;
           font-weight: 600;
-          padding: 15px;
+          padding: 25px;
+          display: flex;
+          
+          
           
           
 }
 .subjects{
           
           color: #ffffff;
+          background:#118B50 ;
+          padding: .5em;
+          border-radius: 1em;
+}
+.all-subjects{
+          background: #ff8484;
+          padding: .3em;
+          border: none;
+          border-radius: .5em;
 }
