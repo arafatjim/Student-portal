@@ -1,6 +1,8 @@
+
+
 .registration-section{
-          background: #acacac;
-          /* background-image: url('./assets/bg.jpg'); */
+          background: #2c3e50;
+          margin: 80% auto;
           
 }
 .label{
@@ -9,7 +11,7 @@
           color: #ffffff;
 }
 .card-body{
-          background: #355F2E;
+          background: #ecf0f1;
           border-radius: 10px;
 }
 .registration-title{
@@ -18,9 +20,11 @@
 }
 .welcome-bio{
           font-size: 2em;
+          height: 50px;
+          color: white;
 }
 .college-name{
-          color: rgb(43, 74, 201);
+          color: #f39c12;
           font-size: 1.5em;
           font-family: Georgia, 'Times New Roman', Times, serif;
 }
