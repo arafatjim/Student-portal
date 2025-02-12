@@ -5,87 +5,123 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
           <script src="https://cdn.tailwindcss.com"></script>
-          <link rel="stylesheet" href="./style/registration.css">
           <link rel="shortcut icon" href="./assets/dcsclogo.jpg" type="image/x-icon">
-          <title>DCSC UniVerse</title>
+          <link rel="stylesheet" href="./style/new.css">
+          <title>new page</title>
 </head>
 <body>
-          <div class="registration-section">
-                    <div class="hero min-h-screen">
-                              <div class="hero-content flex-col lg:flex-row-reverse">
-                                <div class="banner-text text-center md:flex-col justify-normal lg:text-left">
-                                  <h1 class="registration-title text-5xl font-bold">Registration here!</h1>
-                                  <p class="welcome-bio py-6">
-                                    Welcome to <span class="college-name">Delta Computer Science College,Rangpur</span>. 
-                                    May our journey be auspicious.
-                                  </p>
-                                </div>
-                                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-                                  <form class="registration-form card-body">
-                                    <div class="form-control">
-                                      <label class="label">
-                                        <span class="label-text">Email or Phone:</span>
-                                      </label>
-                                      <input id="emailNum" type="text" placeholder="Enter your email or phone number" class="input input-bordered" required />
-                                    </div>
-                                    <!-- subject -->
-                                    <div class="form-control">
-                                      <label class="label">
-                                        <span class="label-text">Subject:</span>
-                                      </label>
-                                      <select class="select select-bordered w-full max-w-xs">
-                                        
-                                        <option disabled selected>Choose your subject here!</option>
-                                        <option>CSE</option>
-                                        <option>BBA</option>
-                                        <option>MBA</option>
-                                        <option>HSC(Science)</option>
-                                        <option>HSC(Arts)</option>
-                                      </select>
-                                    </div>
-
-                                    <!-- session -->
-                                    <div class="form-control">
-                                      <label class="label">
-                                        <span class="label-text">Session:</span>
-                                      </label>
-                                      <select class="select select-bordered w-full max-w-xs">
-                                        
-                                        <option disabled selected>2024-2025</option>
-                                        <option>2023-2024</option>
-                                        <option>2022-2023</option>
-                                        <option>2021-2022</option>
-                                        <option>2020-2021</option>
-                                        <option>2019-2020</option>
-                                        <option>2018-2019</option>
-                                        <option>2017-2018</option>
-                                      </select>
-                                    </div>
-
-                                    
-                                    <div class="form-control">
-                                      <label class="label">
-                                        <span class="label-text">Create Password:</span>
-                                      </label>
-                                      <input id="create-pass" type="password" placeholder="Create password" class="input input-bordered" required />
-
-                                      <label class="label">
-                                        <span class="label-text">Confirm Password:</span>
-                                      </label>
-                                      <input id="confirm-pass" type="password" placeholder="Re-enter password" class="input input-bordered" required />
-                                      <label class="label">
-                                        <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
-                                      </label>
-                                    </div>
-                                    <div class="form-control mt-6">
-                                      <button id="btn-sign-up" class="btn btn-primary bg-[#4f57ff]">Sign Up</button>
-                                    </div>
-                                  </form>
-                                </div>
+          <div class="nav-section">
+                    <div class="navbar bg-base-100">
+                        <div class="logo-img flex-1">
+                              <img src="./assets/dcsclogo.jpg" alt="">
+                              <a class=" ">DELTA COMPUTER SCIENCE COLLEGE,RANGPUR</a>
                               </div>
-                            </div>
-          </div>
+                              <div class="sign-up-section flex justify-around px-8 ">
+                                   
+                                    
+                                      
+                                      <button class="btn" onclick="my_modal_2.showModal()">Sign up</button>
+          <dialog id="my_modal_2" class="modal ">
+            <div class="modal-box card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+              
+              <form class="registration-form card-body">
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Email or Phone:</span>
+                  </label>
+                  <input id="emailNum" type="text" placeholder="Enter your email or phone number" class="input input-bordered" required />
+                </div>
+                <!-- subject -->
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Subject:</span>
+                  </label>
+                  <select class="subject-selection select select-bordered w-full max-w-xs">
+                    
+                    <option disabled selected>Choose your subject here!</option>
+                    <option>CSE</option>
+                    <option>BBA</option>
+                    <option>MBA</option>
+                    <option>HSC(Science)</option>
+                    <option>HSC(Arts)</option>
+                  </select>
+                </div>
 
-          <script src="./js/registration.js"></script>
+                <!-- session -->
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Session:</span>
+                  </label>
+                  <select class="subject-selection select select-bordered w-full max-w-xs">
+                    
+                    <option disabled selected>2024-2025</option>
+                    <option>2023-2024</option>
+                    <option>2022-2023</option>
+                    <option>2021-2022</option>
+                    <option>2020-2021</option>
+                    <option>2019-2020</option>
+                    <option>2018-2019</option>
+                    <option>2017-2018</option>
+                  </select>
+                </div>
+
+                
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Create Password:</span>
+                  </label>
+                  <input id="create-pass" type="password" placeholder="Create password" class="input input-bordered" required />
+
+                  <label class="label">
+                    <span class="label-text">Confirm Password:</span>
+                  </label>
+                  <input id="confirm-pass" type="password" placeholder="Re-enter password" class="input input-bordered" required />
+                  <label class="label">
+                    <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                  </label>
+                </div>
+                <div class="form-control mt-6">
+                  <button id="btn-sign-up" class="btn btn-primary bg-[#4f57ff]">Sign Up</button>
+                </div>
+              </form>
+          
+        </div>
+      </dialog>
+
+
+      <button class="btn btn-outline btn-secondary" onclick="my_modal_1.showModal()">Sign in</button>
+                                    <dialog id="my_modal_1" class="modal ">
+                                      <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                                        <form class="card-body">
+                                          <div class="form-control">
+                                            <label class="label">
+                                              <span class="label-text">Email</span>
+                                            </label>
+                                            <input type="email" placeholder="email" class="input input-bordered" required />
+                                          </div>
+                                          <div class="form-control">
+                                            <label class="label">
+                                              <span class="label-text">Password</span>
+                                            </label>
+                                            <input type="password" placeholder="password" class="input input-bordered" required />
+                                            <label class="label">
+                                              <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                                            </label>
+                                          </div>
+                                          <div class="form-control mt-6">
+                                            <button id="btn-sign-in" class="btn btn-primary">Sign in</button>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </dialog>
+                              </div>
+                        </div>
+                    </div>
+          <main>
+            <div class="banner">
+              <img src="./assets/bg.jpg" alt="">
+            </div>
+          </main>
+          <script src="./js/new.js"></script>
 </body>
 </html>

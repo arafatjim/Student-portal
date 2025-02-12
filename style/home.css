@@ -1,58 +1,35 @@
-.nav-section{
-          color: white;
-          height: 4.2em;
+.navbar{
+          color: rgb(255, 255, 255);
           
 }
-.logo-img{
-          height: 40px;
-          width: 60px;
-          background: #344CB7;
-          border-radius: 15px;
-          height: 4.2em;
+.navbar-center a{
+          font-size: 40px;
+}
+.dropdown{
           
+}
+li{
+          color: black;
+          font-weight: 400;
+}
+.nav-second{
+          color: black;
+          font-weight: 500;
+          padding-left: 3em;
+}
+.nav-second-container{
+          background: #f7f1e3;
+          margin: 0 auto;
 }
 
 
-.nav-ul{
-          display: flex;
-          justify-content: space-between;
-          padding: 20px;
-          background: #344CB7;
+.dropdown-content{
+          font-weight: 400;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 1em;
+}
+.dropdown-btn{
+          background: #f7f1e3;
           text-align: center;
-          
-}
-.information-title{
-          padding: 2em;
-}
-
-.information{
-          background: #ff2f55;
-          color: white;
-          font-size: larger;
-          font-weight: 600;
-          padding: 5px;
-          display: flex;
-
-          
-          
-          
-}
-.subjects{
-          
-          color: #ffffff;
-          background:#118B50 ;
-          padding:.6em;
-          margin: 1em;
-          border-radius: 1em;
-          height: 3em;
-          
-}
-.all-subjects{
-          background: #ff8484;
-          padding: .3em;
-          border: none;
-          border-radius: .5em;
-}
-.log-out-btn{
-          margin-bottom: 20px;
+          padding: 5px 20px;
 }
