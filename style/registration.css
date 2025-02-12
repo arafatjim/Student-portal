@@ -1,5 +1,6 @@
 .registration-section{
-          background: #F4F6FF;
+          background: #acacac;
+          /* background-image: url('./assets/bg.jpg'); */
           
 }
 .label{
@@ -8,7 +9,7 @@
           color: #ffffff;
 }
 .card-body{
-          background: #a4b0be;
+          background: #355F2E;
           border-radius: 10px;
 }
 .registration-title{

@@ -1,33 +1,38 @@
 .nav-section{
           color: white;
+          height: 4.2em;
+          
 }
 .logo-img{
           height: 40px;
-          width: 40px;
+          width: 60px;
           background: #344CB7;
-          margin: 5px;
+          border-radius: 15px;
+          height: 4.2em;
+          
 }
+
+
 .nav-ul{
           display: flex;
           justify-content: space-between;
           padding: 20px;
           background: #344CB7;
           text-align: center;
-}
-/* .information{
           
-          height: 3em;
-          display: block;
-} */
+}
+.information-title{
+          padding: 2em;
+}
 
 .information{
-          background: #578FCA;
+          background: #ff2f55;
           color: white;
           font-size: larger;
           font-weight: 600;
-          padding: 25px;
+          padding: 5px;
           display: flex;
-          
+
           
           
           
@@ -36,12 +41,18 @@
           
           color: #ffffff;
           background:#118B50 ;
-          padding: .5em;
+          padding:.6em;
+          margin: 1em;
           border-radius: 1em;
+          height: 3em;
+          
 }
 .all-subjects{
           background: #ff8484;
           padding: .3em;
           border: none;
           border-radius: .5em;
+}
+.log-out-btn{
+          margin-bottom: 20px;
 }
