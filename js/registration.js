@@ -6,7 +6,7 @@ document.getElementById('btn-sign-up').addEventListener('click',function(event){
           var emailNumber=document.getElementById('emailNum').value;
           
           if(createPass== confirmPass){
-                    window.location.href='/home.html';
+                    window.location.href='./home.html';
                     emailNumber='';
                     
           }
